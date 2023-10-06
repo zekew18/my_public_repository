@@ -103,7 +103,8 @@ def vigenereDecrypt(messagev, keyv, textset):
     return "".join(encrypt_phrase)
 
 
-# Below this point is the user input ... section?... area...? I wouldn't know what to call it. 
+# Below is the user interface section
+# Comment: Needs to be revamped -October 4th, 2023 
 def begin(): 
     input_action = input("Encryption or decryption (e/d): ")
 
